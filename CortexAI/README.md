@@ -2,72 +2,62 @@ CortexAI
 
 An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis
 
-1. Project Overview
+1️⃣ Project Overview
 
 CortexAI is a modular, AI-driven behavioral intelligence framework for advanced network traffic analysis.
-Unlike traditional signature-based systems, CortexAI learns generalized behavioral patterns to distinguish malicious activity from benign traffic, enabling detection beyond known malware families.
+Unlike traditional signature-based systems, CortexAI learns generalized behavioral patterns to distinguish malicious activity from benign traffic — enabling detection beyond known malware families.
 
-The project is designed for cybersecurity research and analytical demonstration, emphasizing:
+Key Highlights:
+✨ Modular system design
+✨ Behavioral generalization
+✨ Model explainability
+✨ Ethical handling of sensitive detection logic
 
-Modular system design
+2️⃣ Problem Statement
 
-Behavioral generalization
+Modern cyber threats evolve rapidly, making signature-based detection ineffective.
+Most ML models overfit to family-specific patterns, limiting their ability to detect unknown or zero-day threats.
 
-Model explainability
+CortexAI solves this by:
+✅ Learning behavioral characteristics of network traffic, not signatures
+✅ Providing a modular research pipeline for controlled experimentation
+✅ Maintaining ethical abstraction of sensitive detection logic
 
-Ethical handling of sensitive detection logic
+3️⃣ Dataset Creation & Behavioral Learning
 
-2. Problem Statement
+CortexAI is trained on a self-created, balanced dataset with multiple ransomware families and benign traffic.
 
-Modern cyber threats evolve rapidly, rendering signature-based detection increasingly ineffective.
-Most existing datasets and ML models overfit to family-specific patterns, limiting their ability to detect unknown or zero-day threats.
+Objective: Behavioral learning — not family identification.
 
-CortexAI addresses this gap by:
+📄 Detailed documentation: docs/dataset_creation.pdf
 
-Learning behavioral characteristics of network traffic rather than malware signatures
+Covers:
 
-Enabling controlled experimentation through a modular research pipeline
+Raw PCAP sourcing from University of Navarra Ransomware Repository
 
-Maintaining ethical abstraction of sensitive detection logic
+Log conversion, feature engineering, preprocessing
 
-3. Dataset Creation & Behavioral Learning
+Labeling logic & dataset balancing
 
-CortexAI is trained on a self-created, balanced dataset composed of multiple ransomware families and benign network traffic.
-The primary objective is behavioral learning, not family identification.
+Ethical considerations for generalization & misuse prevention
 
-To demonstrate analytical rigor and research methodology, the dataset creation process is documented in:
+Why It Matters:
+🌟 Detects previously unseen ransomware families
+🌟 Discriminates malicious vs benign traffic across diverse sources
 
-📄 docs/dataset_creation.pdf
+Future Work:
 
-This documentation covers:
+Expand traffic scenarios
 
-Sourcing of raw PCAP files from the University of Navarra Ransomware Repository
+Refine behavioral feature representations
 
-Log conversion, feature engineering, and preprocessing strategies
+Improve generalization across evolving threats
 
-Labeling logic and dataset balancing decisions
+Dataset visuals emphasize behavioral diversity — research-driven, not inflated.
 
-Ethical considerations to preserve generalization and prevent misuse
+4️⃣ Modular Pipeline Overview
 
-Significance
-
-Behavioral learning enables detection of previously unseen ransomware families
-
-The dataset supports robust discrimination between malicious and benign traffic across diverse sources
-
-Future Work
-
-Expansion with additional traffic scenarios
-
-Refinement of behavioral feature representations
-
-Improved generalization across evolving threat patterns
-
-Dataset distribution visualizations emphasize behavioral diversity rather than dataset inflation, reflecting a research-driven analytical approach.
-
-4. Modular Pipeline Overview
-
-CortexAI consists of independently containerized modules, each functioning as a standalone research tool:
+CortexAI features containerized modules, each a standalone research tool:
 
 Module	Purpose
 Zeek Sensor	Captures live traffic or processes PCAP files
@@ -76,74 +66,56 @@ Feature Engine	Performs feature extraction on categorized logs
 Labeling Engine	Handles feature merging and labeling operations
 Inference Engine	Applies trained models to generate behavioral verdicts
 
-Note: Internal detection logic, feature thresholds, and model internals are intentionally abstracted for security and IP protection.
+⚠️ Internal detection logic, feature thresholds, and model internals are abstracted for security & IP protection
 
-5. Architecture & Activity Diagrams
+5️⃣ Architecture & Activity Diagrams
 
-Architecture Diagram — Visualizes all Dockerized modules from raw traffic ingestion to inference output
+Diagrams included:
 
-Activity Diagram — Illustrates execution flow, manual analyst decisions, and research-oriented control points
+Architecture Diagram — All Dockerized modules, traffic ingestion → inference
 
-Dataset Pipeline Flowchart — Shows PCAP → CSV → Feature Engineering → Labeling workflow
+Activity Diagram — Execution flow, manual analyst decisions, research control points
 
-📁 Diagrams are available in the diagrams/ directory.
+Dataset Pipeline Flowchart — PCAP → CSV → Feature Engineering → Labeling
 
-6. System Testing & Generalization Results
+📁 Available in: diagrams/
 
-CortexAI was evaluated against both known and previously unseen ransomware families, as well as benign traffic.
+6️⃣ System Testing & Generalization Results
 
-Key Results
+Evaluation: Known & unseen ransomware families, plus benign traffic
+
+Key Results:
 
 Unseen Ransomware Families
-
-100% detection accuracy on ransomware families not included during training
-
-No prior family labels provided
-
-Demonstrates true behavioral generalization
+✅ 100% detection accuracy
+✅ No prior family labels
+✅ True behavioral generalization
 
 Benign Traffic
+✅ 100% on live host traffic
+✅ 90–95% on Stratosphere Labs normal traffic
 
-100% accuracy on live traffic captured from the host system
+Impact:
+🌟 Confirms learning of generalized malicious behavior
+🌟 Demonstrates robustness beyond training data
+🌟 Validates research-oriented design & analytical rigor
 
-90–95% accuracy on Stratosphere Labs normal traffic datasets
+7️⃣ Security & IP Notice
 
-Significance
+To protect research integrity:
 
-Confirms learning of generalized malicious behavior
+Not disclosed: Behavioral detection rules, feature weights, model internals
 
-Demonstrates robustness beyond training data
+Focus: Architecture, workflow, abstracted dataset methodology, evaluation results
 
-Validates research-oriented system design and analytical rigor
+Detailed internals available under NDA for academic/professional review
 
-7. Security & Intellectual Property Notice
+8️⃣ Future Work & Research Potential
 
-To preserve research integrity and prevent misuse, the following are intentionally not publicly disclosed:
+Expand datasets across diverse network environments
 
-Behavioral detection rules
-
-Feature weighting strategies
-
-Model internals and thresholds
-
-This repository focuses on:
-
-System architecture
-
-Analytical workflow
-
-Dataset methodology (abstracted)
-
-Evaluation results
-
-Detailed internals can be shared under NDA for academic or professional review.
-
-8. Future Work & Research Potential
-
-Expand datasets with diverse network environments
-
-Introduce additional explainability metrics
+Introduce explainability metrics
 
 Integrate inference with real-time monitoring (research mode)
 
-Publish anonymized analytical findings for academic research
+Publish anonymized analytical findings for research
