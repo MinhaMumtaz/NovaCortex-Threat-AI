@@ -1,6 +1,4 @@
-CortexAI
-
-An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis
+**CortexAI **- An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis
 
 1️⃣ Project Overview
 
