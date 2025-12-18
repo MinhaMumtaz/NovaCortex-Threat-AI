@@ -2,6 +2,7 @@
 
 <!-- Tool Logos -->
 <p align="left">
+  <img src=""C:\Users\CC\OneDrive\Desktop\Portfolio\Cortex_AI\images-removebg-preview.png"" alt="Zeek" width="40" height="40"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="50" height="50"/>
@@ -11,7 +12,6 @@
   <!-- Add more logos here if needed -->
 </p>
 
-  <img src="https://zeek.org/assets/images/zeek-logo.png" alt="Zeek" width="40" height="40"/>
 
 📌 **Caption**  
 **Figure 1: CortexAI Modular Detection Pipeline Architecture**
