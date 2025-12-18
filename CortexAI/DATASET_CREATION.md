@@ -19,8 +19,7 @@ CortexAI’s behavioral dataset is sourced from multiple, diverse traffic stream
 
 ## **2️⃣ Dataset Distribution**
 
-![Dataset Distribution Pie Chart](cortexai_dataset_distribution.png)
-
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/images-removebg-preview.png?raw=true" alt="Zeek" width="60" height="60"/>
 **Figure 2: Dataset Distribution – Benign vs. Ransomware Behavioral Samples**
 
 > 💡 This pie chart illustrates the proportion of **benign and malicious traffic samples** in the CortexAI dataset, emphasizing balanced representation for **behavioral learning**.
