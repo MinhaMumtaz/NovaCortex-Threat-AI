@@ -20,7 +20,7 @@
 
 
 
-
+ <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/CortexAI_Arch.png" alt="SHAP" width="200" height="200"/>
 
 
 
