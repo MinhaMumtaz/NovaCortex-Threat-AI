@@ -40,12 +40,12 @@ Benign samples were sourced from:
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-1.png" alt="stratosphere lab sample-2" width="450" height="450"/>
 
-##### Figure 4: Confusion Matrix — Benign Traffic (Stratosphere Lab)
+##### Figure 4: Confusion Matrix — Benign Traffic (Stratosphere Lab - Sample#1)
 
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-2.png" alt="stratosphere lab sample-1" width="450" height="450"/>
 
-##### Figure 5: Confusion Matrix — Benign Traffic (Stratosphere Lab)
+##### Figure 5: Confusion Matrix — Benign Traffic (Stratosphere Lab - Sample#2)
 
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Benign-2.png" alt="Benign-2" width="450" height="450"/>
