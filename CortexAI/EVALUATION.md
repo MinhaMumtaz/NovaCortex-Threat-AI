@@ -13,11 +13,13 @@ malicious behavior while minimizing false negatives.
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Stop_heatmap.png" alt="Stop" width="600" height="600"/>
 
-## Figure 2: Confusion Matrix — STOP (Unseen Ransomware Family)
+##### Figure 2: Confusion Matrix — STOP (Unseen Ransomware Family)
 
+---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/phobos_heatmap.png" alt="Phobos" width="600" height="600"/>
 
-## Figure 3: Confusion Matrix — Phobos (Unseen Ransomware Family)
+##### Figure 3: Confusion Matrix — Phobos (Unseen Ransomware Family)
+
 
 **Interpretation**
 
@@ -25,6 +27,7 @@ malicious behavior while minimizing false negatives.
 - No reliance on family-specific signatures
 - Confirms behavior-driven classification
 
+---
 ## 🟢 Benign Traffic Evaluation — False Positive Analysis
 
 CortexAI was evaluated against **benign network traffic**
@@ -37,15 +40,18 @@ Benign samples were sourced from:
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-1.png" alt="stratosphere lab sample-2" width="600" height="600"/>
 
-## Figure 4: Confusion Matrix — Benign Traffic (Stratosphere Lab)
+##### Figure 4: Confusion Matrix — Benign Traffic (Stratosphere Lab)
 
+---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-2.png" alt="stratosphere lab sample-1" width="600" height="600"/>
 
-## Figure 5: Confusion Matrix — Benign Traffic (Stratosphere Lab)
+##### Figure 5: Confusion Matrix — Benign Traffic (Stratosphere Lab)
 
+---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Benign-2.png" alt="Benign-2" width="600" height="600"/>
 
-## Figure 6: Confusion Matrix — Benign Traffic (UNSW-NB15 - PCAP files)
+##### Figure 6: Confusion Matrix — Benign Traffic (UNSW-NB15 - PCAP files)
+
 
 **Interpretation**
 
@@ -53,6 +59,7 @@ Benign samples were sourced from:
 - Misclassifications occur primarily during bursty legitimate activity
 - Confirms controlled sensitivity of behavioral detection
 
+---
 ## 🧠 Behavioral Generalization — Detection Rate on Unseen Families
 
 To assess behavioral generalization, CortexAI was evaluated on
@@ -61,9 +68,9 @@ To assess behavioral generalization, CortexAI was evaluated on
 The chart below shows the **detection rate (%)** for each unseen family,
 based purely on behavioral characteristics.
 
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Behavioral%20generalization%20on%20unseen%20families.png" alt="behavioral generalization" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Behavioral%20generalization%20on%20unseen%20families.png" alt="behavioral generalization" width="800" height="800"/>
 
-### Figure 7: Behavioral Detection Rate Across Unseen Ransomware Families
+###### Figure 7: Behavioral Detection Rate Across Unseen Ransomware Families
 
 **Interpretation**
 
