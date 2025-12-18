@@ -20,11 +20,8 @@
 
 
 
- <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/CortexAI_Arch.png" alt="SHAP" width="200" height="200"/>
+ <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/CortexAI_Arch.png" alt="SHAP" width="1200" height="1200"/>
 
-
-
-📌 **Caption**  
 **Figure 1: CortexAI Modular Detection Pipeline Architecture**
 
 📌 **Pipeline Name**  
