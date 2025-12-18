@@ -2,8 +2,7 @@
 
 <!-- Tool Logos -->
 <p align="left">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/XGBoost_logo.svg.svg" alt="Postgres" width="40" height="40"/>
-  <img src="https://en.wikipedia.org/wiki/Python_%28programming_language%29#/media/File:Python-logo-notext.svg" alt="Such" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" width="40" height="40"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="MySQL" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
