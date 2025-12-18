@@ -8,17 +8,17 @@ malicious behavior while minimizing false negatives.
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/cerber_heatmap.png" alt="Cerber" width="450" height="450"/>
 
-##### Figure 1: Confusion Matrix — Cerber (Unseen Ransomware Family) 
+##### Figure 5: Confusion Matrix — Cerber (Unseen Ransomware Family) 
 
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Stop_heatmap.png" alt="Stop" width="450" height="450"/>
 
-##### Figure 2: Confusion Matrix — STOP (Unseen Ransomware Family)
+##### Figure 6: Confusion Matrix — STOP (Unseen Ransomware Family)
 
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/phobos_heatmap.png" alt="Phobos" width="450" height="450"/>
 
-##### Figure 3: Confusion Matrix — Phobos (Unseen Ransomware Family)
+##### Figure 7: Confusion Matrix — Phobos (Unseen Ransomware Family)
 
 
 **Interpretation**
@@ -40,17 +40,17 @@ Benign samples were sourced from:
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-1.png" alt="stratosphere lab sample-2" width="450" height="450"/>
 
-##### Figure 4: Confusion Matrix — Benign Traffic (Stratosphere Lab - Sample#1)
+##### Figure 8: Confusion Matrix — Benign Traffic (Stratosphere Lab - Sample#1)
 
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-2.png" alt="stratosphere lab sample-1" width="450" height="450"/>
 
-##### Figure 5: Confusion Matrix — Benign Traffic (Stratosphere Lab - Sample#2)
+##### Figure 9: Confusion Matrix — Benign Traffic (Stratosphere Lab - Sample#2)
 
 ---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Benign-2.png" alt="Benign-2" width="450" height="450"/>
 
-##### Figure 6: Confusion Matrix — Benign Traffic (UNSW-NB15 - PCAP files)
+##### Figure 10: Confusion Matrix — Benign Traffic (UNSW-NB15 - PCAP files)
 
 
 **Interpretation**
@@ -70,7 +70,7 @@ based purely on behavioral characteristics.
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Behavioral%20generalization%20on%20unseen%20families.png" alt="behavioral generalization" width="800" height="800"/>
 
-###### Figure 7: Behavioral Detection Rate Across Unseen Ransomware Families
+###### Figure 11: Behavioral Detection Rate Across Unseen Ransomware Families
 
 **Interpretation**
 
