@@ -1,5 +1,5 @@
 ---
-title: CortexAI Docker Modules
+Title: CortexAI Docker Modules
 ---
 
 # CortexAI Docker Modules Overview
