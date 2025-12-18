@@ -10,7 +10,7 @@ malicious behavior while minimizing false negatives.
 
 ##### Figure 1: Confusion Matrix — Cerber (Unseen Ransomware Family) 
 
-
+---
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Stop_heatmap.png" alt="Stop" width="600" height="600"/>
 
 ## Figure 2: Confusion Matrix — STOP (Unseen Ransomware Family)
