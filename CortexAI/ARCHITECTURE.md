@@ -14,6 +14,11 @@
 <b>
 <b>
 
+
+
+
+
+
 📌 **Caption**  
 **Figure 1: CortexAI Modular Detection Pipeline Architecture**
 
