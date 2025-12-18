@@ -15,10 +15,20 @@ CortexAI’s behavioral dataset is sourced from multiple, diverse traffic stream
 | **Other Public Sources** | Supplementary traffic sources as needed for diversity and coverage. |
 
 > ⚠️ All sources are preprocessed and anonymized to maintain **ethical research standards**.
-
 ---
 
-## **2️⃣ Feature Categories**
+## **2️⃣ Dataset Distribution**
+
+![Dataset Distribution Pie Chart](cortexai_dataset_distribution.png)
+
+**Figure 2: Dataset Distribution – Benign vs. Ransomware Behavioral Samples**
+
+> 💡 This pie chart illustrates the proportion of **benign and malicious traffic samples** in the CortexAI dataset, emphasizing balanced representation for **behavioral learning**.
+
+---
+---
+
+## **3️⃣ Feature Categories**
 
 To capture **comprehensive network behavior**, features are extracted across multiple categories:
 
@@ -34,7 +44,7 @@ To capture **comprehensive network behavior**, features are extracted across mul
 
 ---
 
-## **3️⃣ Top Features – CortexAI Dataset (Ransomware Detection)**
+## **4️⃣ Top Features – CortexAI Dataset (Ransomware Detection)**
 
 | Feature | Description |
 | ------- | ----------- |
@@ -58,7 +68,7 @@ To capture **comprehensive network behavior**, features are extracted across mul
 
 ---
 
-## **4️⃣ Labeling Strategy**
+## **5️⃣ Labeling Strategy**
 
 - Labels are applied **per traffic type**: `benign` or `malicious`.  
 - For ransomware, the **family label** is recorded separately for analytical purposes.  
@@ -66,7 +76,7 @@ To capture **comprehensive network behavior**, features are extracted across mul
 
 ---
 
-## **5️⃣ Dataset Merging Logic**
+## **6️⃣ Dataset Merging Logic**
 
 - Individual log CSVs from different sources are **merged into unified datasets** per module.  
 - Steps include:  
@@ -77,7 +87,7 @@ To capture **comprehensive network behavior**, features are extracted across mul
 
 ---
 
-## **6️⃣ Train / Test / Unseen Family Separation**
+## **7️⃣ Train / Test / Unseen Family Separation**
 
 - **Training Set** – Balanced selection of ransomware families and benign traffic.  
 - **Testing Set** – Separate portion of known families for model evaluation.  
@@ -87,7 +97,7 @@ To capture **comprehensive network behavior**, features are extracted across mul
 
 ---
 
-## **7️⃣ Analytical Process (High-Level)**
+## **8️⃣ Analytical Process (High-Level)**
 
 Instead of raw logs or code, the dataset was constructed strategically:
 
