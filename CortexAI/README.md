@@ -34,7 +34,7 @@ CortexAI is trained on a **self-created, balanced dataset** with multiple ransom
 
 **Objective:** Behavioral learning — not family identification.  
 
-📄 Detailed documentation: `docs/dataset_creation.pdf`  
+📄 Detailed documentation: `DATASET_CREATION.md`  
 
 **Covers:**  
 - Raw PCAP sourcing from **University of Navarra Ransomware Repository**  
