@@ -25,7 +25,7 @@ Absolutely! I can rewrite your root README content into **one clean, structured,
 
 The platform is built with a **research-to-production mindset**, combining cybersecurity analytics, data science, and deployment-ready engineering practices. 
 
-It is an umbrella project comprising multiple sub-projects—some already developed, some in progress, and others planned for the future. The purpose of this initiative is to conduct advanced research in threat intelligence (TI) and cyber forensics, while developing tools that not only enhance cybersecurity defenses but also provide advanced capabilities for cybersecurity professionals.
+It is an umbrella project comprising multiple sub-projects—some already developed (CortexAI, CortexNexus), some in progress, and others planned for the future. The purpose of this initiative is to conduct advanced research in threat intelligence (TI) and cyber forensics, while developing tools that not only enhance cybersecurity defenses but also provide advanced capabilities for cybersecurity professionals.
 
 ---
 
