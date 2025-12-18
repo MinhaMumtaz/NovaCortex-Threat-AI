@@ -6,17 +6,17 @@ for **three ransomware families not included during training**.
 These visualizations illustrate the system’s ability to correctly identify
 malicious behavior while minimizing false negatives.
 
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/cerber_heatmap.png" alt="Cerber" width="400" height="400"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/cerber_heatmap.png" alt="Cerber" width="450" height="450"/>
 
 ##### Figure 1: Confusion Matrix — Cerber (Unseen Ransomware Family) 
 
 ---
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Stop_heatmap.png" alt="Stop" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Stop_heatmap.png" alt="Stop" width="450" height="450"/>
 
 ##### Figure 2: Confusion Matrix — STOP (Unseen Ransomware Family)
 
 ---
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/phobos_heatmap.png" alt="Phobos" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/phobos_heatmap.png" alt="Phobos" width="450" height="450"/>
 
 ##### Figure 3: Confusion Matrix — Phobos (Unseen Ransomware Family)
 
@@ -38,17 +38,17 @@ Benign samples were sourced from:
 - Stratosphere Labs normal traffic datasets (two samples)
 - Additional real-world benign traffic capture
 
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-1.png" alt="stratosphere lab sample-2" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-1.png" alt="stratosphere lab sample-2" width="450" height="450"/>
 
 ##### Figure 4: Confusion Matrix — Benign Traffic (Stratosphere Lab)
 
 ---
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-2.png" alt="stratosphere lab sample-1" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/stratosphere%20lab%20sample-2.png" alt="stratosphere lab sample-1" width="450" height="450"/>
 
 ##### Figure 5: Confusion Matrix — Benign Traffic (Stratosphere Lab)
 
 ---
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Benign-2.png" alt="Benign-2" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Benign-2.png" alt="Benign-2" width="450" height="450"/>
 
 ##### Figure 6: Confusion Matrix — Benign Traffic (UNSW-NB15 - PCAP files)
 
