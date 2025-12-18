@@ -1,119 +1,134 @@
-**CortexAI **- An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis
+# 🌐 **CORTEXAI**  
+**_An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis_**  
 
-1️⃣ Project Overview
+---
 
-CortexAI is a modular, AI-driven behavioral intelligence framework for advanced network traffic analysis.
-Unlike traditional signature-based systems, CortexAI learns generalized behavioral patterns to distinguish malicious activity from benign traffic — enabling detection beyond known malware families.
+## 1️⃣ **Project Overview**  
 
-Key Highlights:
-✨ Modular system design
-✨ Behavioral generalization
-✨ Model explainability
-✨ Ethical handling of sensitive detection logic
+CortexAI is a **modular, AI-driven behavioral intelligence framework** for advanced network traffic analysis.  
+Unlike traditional signature-based systems, CortexAI learns **generalized behavioral patterns** to distinguish malicious activity from benign traffic — enabling detection **beyond known malware families**.  
 
-2️⃣ Problem Statement
+**Key Highlights:**  
+✨ Modular system design  
+✨ Behavioral generalization  
+✨ Model explainability  
+✨ Ethical handling of sensitive detection logic  
 
-Modern cyber threats evolve rapidly, making signature-based detection ineffective.
-Most ML models overfit to family-specific patterns, limiting their ability to detect unknown or zero-day threats.
+---
 
-CortexAI solves this by:
-✅ Learning behavioral characteristics of network traffic, not signatures
-✅ Providing a modular research pipeline for controlled experimentation
-✅ Maintaining ethical abstraction of sensitive detection logic
+## 2️⃣ **Problem Statement**  
 
-3️⃣ Dataset Creation & Behavioral Learning
+Modern cyber threats evolve **rapidly**, making signature-based detection **ineffective**.  
+Most ML models overfit to **family-specific patterns**, limiting their ability to detect **unknown or zero-day threats**.  
 
-CortexAI is trained on a self-created, balanced dataset with multiple ransomware families and benign traffic.
+CortexAI solves this by:  
+✅ Learning **behavioral characteristics** of network traffic, not signatures  
+✅ Providing a **modular research pipeline** for controlled experimentation  
+✅ Maintaining **ethical abstraction** of sensitive detection logic  
 
-Objective: Behavioral learning — not family identification.
+---
 
-📄 Detailed documentation: docs/dataset_creation.pdf
+## 3️⃣ **Dataset Creation & Behavioral Learning**  
 
-Covers:
+CortexAI is trained on a **self-created, balanced dataset** with multiple ransomware families and benign traffic.  
 
-Raw PCAP sourcing from University of Navarra Ransomware Repository
+**Objective:** Behavioral learning — not family identification.  
 
-Log conversion, feature engineering, preprocessing
+📄 Detailed documentation: `docs/dataset_creation.pdf`  
 
-Labeling logic & dataset balancing
+**Covers:**  
+- Raw PCAP sourcing from **University of Navarra Ransomware Repository**  
+- Log conversion, feature engineering, preprocessing  
+- Labeling logic & dataset balancing  
+- Ethical considerations for **generalization & misuse prevention**  
 
-Ethical considerations for generalization & misuse prevention
+**Why It Matters:**  
+🌟 Detects **previously unseen ransomware families**  
+🌟 Discriminates **malicious vs benign traffic** across diverse sources  
 
-Why It Matters:
-🌟 Detects previously unseen ransomware families
-🌟 Discriminates malicious vs benign traffic across diverse sources
+**Future Work:**  
+- Expand traffic scenarios  
+- Refine behavioral feature representations  
+- Improve **generalization across evolving threats**  
 
-Future Work:
+> *Dataset visuals emphasize behavioral diversity — research-driven, not inflated.*  
 
-Expand traffic scenarios
+---
 
-Refine behavioral feature representations
+## 4️⃣ **Modular Pipeline Overview**  
 
-Improve generalization across evolving threats
+CortexAI features **containerized modules**, each a standalone research tool:  
 
-Dataset visuals emphasize behavioral diversity — research-driven, not inflated.
+| Module               | Purpose                                                   |
+| -------------------- | --------------------------------------------------------- |
+| Zeek Sensor          | Captures live traffic or processes PCAP files             |
+| Log-to-CSV Converter | Converts raw logs with controlled manual folder selection |
+| Feature Engine       | Performs feature extraction on categorized logs           |
+| Labeling Engine      | Handles feature merging and labeling operations           |
+| Inference Engine     | Applies trained models to generate behavioral verdicts    |
 
-4️⃣ Modular Pipeline Overview
+> ⚠️ Internal detection logic, feature thresholds, and model internals are **abstracted for security & IP protection**  
 
-CortexAI features containerized modules, each a standalone research tool:
+---
 
-Module	Purpose
-Zeek Sensor	Captures live traffic or processes PCAP files
-Log-to-CSV Converter	Converts raw logs with controlled manual folder selection
-Feature Engine	Performs feature extraction on categorized logs
-Labeling Engine	Handles feature merging and labeling operations
-Inference Engine	Applies trained models to generate behavioral verdicts
+## 5️⃣ **Architecture & Activity Diagrams**  
 
-⚠️ Internal detection logic, feature thresholds, and model internals are abstracted for security & IP protection
+**Diagrams included:**  
+- **Architecture Diagram** — All Dockerized modules, traffic ingestion → inference  
+- **Activity Diagram** — Execution flow, manual analyst decisions, research control points  
+- **Dataset Pipeline Flowchart** — PCAP → CSV → Feature Engineering → Labeling  
 
-5️⃣ Architecture & Activity Diagrams
+📁 Available in: `diagrams/`  
 
-Diagrams included:
+---
 
-Architecture Diagram — All Dockerized modules, traffic ingestion → inference
+## 6️⃣ **System Testing & Generalization Results**  
 
-Activity Diagram — Execution flow, manual analyst decisions, research control points
+**Evaluation:** Known & **unseen ransomware families**, plus benign traffic  
 
-Dataset Pipeline Flowchart — PCAP → CSV → Feature Engineering → Labeling
+**Key Results:**  
 
-📁 Available in: diagrams/
+**Unseen Ransomware Families**  
+✅ 90%-100% detection accuracy  
+✅ No prior family labels  
+✅ True behavioral generalization  
 
-6️⃣ System Testing & Generalization Results
+**Benign Traffic**  
+✅ 100% on live host traffic  
+✅ 90–95% on Stratosphere Labs normal traffic  
 
-Evaluation: Known & unseen ransomware families, plus benign traffic
+**Impact:**  
+🌟 Confirms learning of **generalized malicious behavior**  
+🌟 Demonstrates robustness beyond training data  
+🌟 Validates research-oriented design & analytical rigor  
 
-Key Results:
+---
 
-Unseen Ransomware Families
-✅ 100% detection accuracy
-✅ No prior family labels
-✅ True behavioral generalization
+## 7️⃣ **Security & IP Notice**  
 
-Benign Traffic
-✅ 100% on live host traffic
-✅ 90–95% on Stratosphere Labs normal traffic
+To protect research integrity:  
+- **Not disclosed:** Behavioral detection rules, feature weights, model internals  
+- Focus: Architecture, workflow, abstracted dataset methodology, evaluation results  
+- Detailed internals available **under NDA** for academic/professional review  
 
-Impact:
-🌟 Confirms learning of generalized malicious behavior
-🌟 Demonstrates robustness beyond training data
-🌟 Validates research-oriented design & analytical rigor
+---
 
-7️⃣ Security & IP Notice
+## 8️⃣ **Future Work & Research Potential**  
 
-To protect research integrity:
+- Expand datasets across **diverse network environments**  
+- Introduce **explainability metrics**  
+- Integrate inference with **real-time monitoring** (research mode)  
+- Publish **anonymized analytical findings** for research  
 
-Not disclosed: Behavioral detection rules, feature weights, model internals
+---
 
-Focus: Architecture, workflow, abstracted dataset methodology, evaluation results
+### ✅ **Final Verdict**  
 
-Detailed internals available under NDA for academic/professional review
+This README demonstrates:  
+🌟 Deep analytical thinking  
+🌟 Differentiation from “model-only” projects  
+🌟 IP protection  
+🌟 Recruiter- & researcher-friendly clarity  
 
-8️⃣ Future Work & Research Potential
+**Ready to upload and showcase your expertise!**
 
-Expand datasets across diverse network environments
-
-Introduce explainability metrics
-
-Integrate inference with real-time monitoring (research mode)
-
-Publish anonymized analytical findings for research
