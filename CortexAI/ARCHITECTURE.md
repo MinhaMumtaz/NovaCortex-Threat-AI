@@ -43,11 +43,7 @@ CortexAI is built as a **modular, containerized research framework**. Each modul
 
 > ⚠️ Modules are **containerized** and can be executed independently for analysis or as part of the full pipeline.  
 
----
-
-## **Reference Diagram**
-
-📌 **Diagram Location:** `diagrams/`  
+--- 
 
 💡 **Figure Insight:**  
 The architecture diagram visually presents the **data flow** from raw traffic ingestion → feature extraction → labeling → inference. Arrows indicate the **processing sequence**, while module independence emphasizes **research flexibility**.
