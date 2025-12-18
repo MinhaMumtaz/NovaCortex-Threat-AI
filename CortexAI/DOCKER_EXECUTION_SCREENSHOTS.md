@@ -1,8 +1,8 @@
 ---
-Title: CortexAI Docker Modules
+Title: CortexAI Docker Deployment
 ---
 
-# CortexAI Docker Modules Overview
+# CortexAI Docker Modules - Complete Pipeline
 
 ![Figure 1: Main Docker page showing all five modules running as containers.](https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Docker_pipeline_deploy.png)
 
