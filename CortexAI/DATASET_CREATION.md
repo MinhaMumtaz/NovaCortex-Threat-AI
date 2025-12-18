@@ -30,7 +30,6 @@ CortexAI’s behavioral dataset is sourced from multiple, diverse traffic stream
 **Figure 4: Number of samples per label class (0 == Benign and 1 == Malicious) in the dataset**
 
 ---
----
 
 ## **3️⃣ Feature Categories**
 
