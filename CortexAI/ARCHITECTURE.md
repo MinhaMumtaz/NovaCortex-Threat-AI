@@ -28,7 +28,7 @@
 **CortexAI Modular Behavioral Intelligence Pipeline**
 
 
-<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/CortexAI_ActivityDiagram.png" alt="ActivityDiagram" width="600" height="600"/>
+<img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/CortexAI_ActivityDiagram.png" alt="ActivityDiagram" width="2885" height="6970"/>
 
 **Figure 2: CortexAI End-to-End Operational Workflow**
 
