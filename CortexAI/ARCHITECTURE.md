@@ -15,9 +15,9 @@
 
 ---
 
-<b>
+
  ## **CortexAI - Architecture** 
-<b>
+
 
 
 
