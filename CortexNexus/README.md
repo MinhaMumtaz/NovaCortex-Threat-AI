@@ -14,7 +14,7 @@ It automates the **collection, normalization, and structured storage of threat i
 
 Cortex Nexus addresses core challenges in threat intelligence automation by:
 
-- Aggregating threat feeds from multiple sources (OTX, Abuse.ch, CEH, PhishTank, FISH, TANK, etc.)
+- Aggregating threat feeds from multiple sources (OTX, Abuse.ch [MalwareBazaar, FeodoTracker, SSL Blacklist, URLhaus, ThreatFox, YaraIFY], PhishTank)
 - Automating feed collection, normalization, and structured storage
 - Reducing manual intervention while maintaining a **modular design** suitable for research or production
 - Seamlessly integrating into the **Nova Cortex Threat AI** ecosystem
@@ -30,8 +30,6 @@ Cortex Nexus addresses core challenges in threat intelligence automation by:
 | **AutoNormalizer** | Reads raw feeds and normalizes/formats them into structured data |
 | **AutoFeed Orchestrator** | Main automation hub/scheduler; orchestrates all modules hourly |
 | **IntelVault** | Takes normalized feeds, structures them further, and stores them in a database with categorized IOC tables |
-
-> **Note:** Only the **AutoFeed Orchestrator** will be showcased publicly to demonstrate workflow and automation logic. Other modules remain internal to protect intellectual property.
 
 ---
 
@@ -57,11 +55,9 @@ Cortex Nexus addresses core challenges in threat intelligence automation by:
 
 ## 📸 Visual Proof (Screenshots)
 
-- Running Docker containers (`docker ps` screenshot)  
+- Running Docker containers (screenshot)  
 - Database schema (tables and structure)  
 - Sample IOC entries (dummy/sanitized data)  
-
-> Screenshots are placed in the `screenshots/` folder.
 
 ---
 
@@ -73,23 +69,3 @@ Cortex Nexus addresses core challenges in threat intelligence automation by:
 - Integration with Nova Cortex Threat AI analytics modules  
 
 ---
-
-## 👩‍💻 Author
-
-**Minha Mumtaz**  
-Early-Career Cybersecurity & Threat Intelligence Specialist  
-Focused on **AI-driven, automated security systems**  
-
-- GitHub: [profile link]  
-- LinkedIn: [to be added]  
-- Portfolio Website: [coming soon]  
-
----
-
-## 📜 Copyright & Usage
-
-© 2025 Minha Mumtaz. All rights reserved.  
-
-> This sub-project is published strictly for **portfolio and evaluation purposes**.  
-> No part of this project may be used, copied, modified, or redistributed for commercial or non-commercial purposes without explicit written permission.
-
