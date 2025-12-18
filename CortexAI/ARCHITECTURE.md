@@ -13,8 +13,10 @@
 </p>
 
 
+---
+
 <b>
- ## **CertexAI - Architecture** 
+ ## **CortexAI - Architecture** 
 <b>
 
 
