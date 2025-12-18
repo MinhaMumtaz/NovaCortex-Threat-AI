@@ -87,6 +87,3 @@ Each project can used as **independently** or as part of the unified platform.
 * Cloud-native deployment support
 
 ---
-
-
-]
