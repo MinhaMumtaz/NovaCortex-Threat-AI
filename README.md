@@ -17,15 +17,7 @@ Absolutely! I can rewrite your root README content into **one clean, structured,
 
 ## 📌 Overview
 
-**Nova Cortex Threat AI** is a modular, AI-driven cybersecurity platform designed to:
-
-* Automate threat intelligence ingestion
-* Normalize large-scale indicators of compromise (IOCs)
-* Perform deep behavioral analysis of ransomware threats
-
-The platform is built with a **research-to-production mindset**, combining cybersecurity analytics, data science, and deployment-ready engineering practices. 
-
-It is an umbrella project comprising multiple sub-projects—some already developed (CortexAI, CortexNexus), some in progress, and others planned for the future. The purpose of this initiative is to conduct advanced research in threat intelligence (TI) and cyber forensics, while developing tools that not only enhance cybersecurity defenses but also provide advanced capabilities for cybersecurity professionals.
+Nova Cortex Threat AI is a modular, AI-driven cybersecurity research lab and umbrella initiative. It serves as a platform for conducting advanced research in threat intelligence and cyber forensics, under a research-to-production mindset. The initiative encompasses multiple sub-projects—some already developed (e.g., CortexAI, CortexNexus), some in progress, and others planned for the future—aiming to advance cybersecurity knowledge, develop innovative tools, and provide resources that empower cybersecurity professionals.
 
 ---
 
