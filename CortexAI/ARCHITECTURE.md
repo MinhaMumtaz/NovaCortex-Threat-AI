@@ -1,4 +1,4 @@
-# 3️⃣ ARCHITECTURE.md
+
 
 <!-- Tool Logos -->
 <p align="left">
