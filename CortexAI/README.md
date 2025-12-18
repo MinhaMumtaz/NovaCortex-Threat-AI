@@ -1,4 +1,4 @@
-# 🌐 **CORTEXAI**  
+# **CortexAI**  
 **_An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis_**  
 
 ---
