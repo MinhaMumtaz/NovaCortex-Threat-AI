@@ -2,7 +2,7 @@
 
 <!-- Tool Logos -->
 <p align="left">
-  <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/images-removebg-preview.png?raw=true" alt="Zeek" width="60" height="60"/>
+  <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/images-removebg-preview.png?raw=true" alt="Zeek" width="60" height="60"/><br>
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="50" height="50"/>
