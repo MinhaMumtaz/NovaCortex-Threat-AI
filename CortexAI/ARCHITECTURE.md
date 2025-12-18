@@ -11,6 +11,8 @@
   <!-- Add more logos here if needed -->
 </p>
 
+  <img src="https://zeek.org/assets/images/zeek-logo.png" alt="Zeek" width="40" height="40"/>
+
 📌 **Caption**  
 **Figure 1: CortexAI Modular Detection Pipeline Architecture**
 
