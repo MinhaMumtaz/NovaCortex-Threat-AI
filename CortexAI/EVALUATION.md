@@ -8,7 +8,7 @@ malicious behavior while minimizing false negatives.
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/cerber_heatmap.png" alt="Cerber" width="400" height="400"/>
 
-## Figure 1: Confusion Matrix — Cerber (Unseen Ransomware Family) 
+# Figure 1: Confusion Matrix — Cerber (Unseen Ransomware Family) 
 
 <img src="https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Stop_heatmap.png" alt="Stop" width="600" height="600"/>
 
