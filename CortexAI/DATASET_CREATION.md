@@ -11,6 +11,7 @@ CortexAI’s behavioral dataset is sourced from multiple, diverse traffic stream
 | **Zeek Logs** | Captures live network traffic from hosts or simulated environments. |
 | **CTU Normal Traffic** | Benign network traffic datasets for comparison and validation. |
 | **University of Navarra Ransomware Repository** | PCAP files of multiple ransomware families for behavioral analysis. |
+| **CIC-IDS-2017(PCAPs)** | PCAP files of benign and malicios traffic for behavioral analysis. |
 | **Other Public Sources** | Supplementary traffic sources as needed for diversity and coverage. |
 
 > ⚠️ All sources are preprocessed and anonymized to maintain **ethical research standards**.
