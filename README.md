@@ -9,11 +9,8 @@ Absolutely! I can rewrite your root README content into **one clean, structured,
 
 # 🛡️ Nova Cortex Threat AI
 
-**Author:** Minha Mumtaz
-**Domain:** Cybersecurity 
-• Threat Intelligence 
-• Security Analytics 
-• AI
+**Author:** Minha Mumtaz<br>
+**Domain:** Cybersecurity • Threat Intelligence • Security Analytics • AI
 **Status:** Active Development
 
 ---
@@ -26,7 +23,9 @@ Absolutely! I can rewrite your root README content into **one clean, structured,
 * Normalize large-scale indicators of compromise (IOCs)
 * Perform deep behavioral analysis of ransomware threats
 
-The platform is built with a **research-to-production mindset**, combining cybersecurity analytics, data science, and deployment-ready engineering practices.
+The platform is built with a **research-to-production mindset**, combining cybersecurity analytics, data science, and deployment-ready engineering practices. 
+
+It is an umbrella project comprising multiple sub-projects—some already developed, some in progress, and others planned for the future. The purpose of this initiative is to conduct advanced research in threat intelligence (TI) and cyber forensics, while developing tools that not only enhance cybersecurity defenses but also provide advanced capabilities for cybersecurity professionals.
 
 ---
 
