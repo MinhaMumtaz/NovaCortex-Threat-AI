@@ -77,8 +77,7 @@ CortexAI features **containerized modules**, each a standalone research tool:
 - **Architecture Diagram** — All Dockerized modules, traffic ingestion → inference  
 - **Activity Diagram** — Execution flow, manual analyst decisions, research control points  
 - **Dataset Pipeline Flowchart** — PCAP → CSV → Feature Engineering → Labeling  
-
-📁 Available in: `diagrams/`  
+ 
 
 ---
 
