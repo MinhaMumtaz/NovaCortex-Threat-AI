@@ -10,7 +10,10 @@ Absolutely! I can rewrite your root README content into **one clean, structured,
 # 🛡️ Nova Cortex Threat AI
 
 **Author:** Minha Mumtaz
-**Domain:** Cybersecurity • Threat Intelligence • Security Analytics • AI
+**Domain:** Cybersecurity 
+• Threat Intelligence 
+• Security Analytics 
+• AI
 **Status:** Active Development
 
 ---
@@ -51,32 +54,16 @@ Modern security teams face challenges such as:
 
 ---
 
-## 🧩 Project Modules
+## 🧩 Active - SubProjecst 
 
-| Module                   | Description                                                                             |
+| Project                   | Description                                                                             |
 | ------------------------ | --------------------------------------------------------------------------------------- |
-| **FeedHub**              | Automated collection of threat feeds (OTX, Abuse.ch, MalwareBazaar, URLHaus, PhishTank) |
-| **IntelVault**           | Structured IOC database with normalized schemas                                         |
-| **RansomwareBehaviorAI** | AI-based ransomware behavioral analytics and explainability                             |
-| **DockerPipelines**      | Containerized deployment pipelines for security services                                |
+| **CortexAI**           | An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis |
+| **CortexNexus**           | Dockerized orchestration pipeline for automated IOC feed management.                                         |
 
-Each module can operate **independently** or as part of the unified platform.
 
----
+Each project can used as **independently** or as part of the unified platform.
 
-## 🏗️ High-Level Architecture
-
-```
-Threat Feeds
-   ↓
-FeedHub (Collection + Normalization)
-   ↓
-IntelVault (Structured IOC Storage)
-   ↓
-AI Analytics (Behavioral Modeling + Explainability)
-   ↓
-Dockerized Pipelines (Deployment)
-```
 
 ---
 
@@ -101,23 +88,5 @@ Dockerized Pipelines (Deployment)
 
 ---
 
-## 👩‍💻 Author
-
-**Minha Mumtaz**
-Early-Career Cybersecurity & Threat Intelligence Specialist
-Focused on AI-driven, data-backed security systems.
-
-* 🔗 GitHub: (this profile)
-* 🔗 LinkedIn: (to be added)
-* 🔗 Portfolio Website: (coming soon)
-
----
-
-## 📜 Copyright & Usage
-
-© 2025 Minha Mumtaz. All rights reserved.
-
-This repository is published strictly for **portfolio and evaluation purposes**.
-No part of this project may be used, copied, modified, or redistributed for **commercial or non-commercial purposes** without explicit written permission from the author.
 
 ]
