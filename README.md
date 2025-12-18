@@ -1,4 +1,4 @@
-# 🛡️ Nova Cortex Threat AI
+# 🛡️ NovaCortex-Threat-AI
 
 **Author:** Minha Mumtaz  
 **Domain:** Cybersecurity • Threat Intelligence • Security Analytics • AI  
