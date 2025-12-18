@@ -11,7 +11,8 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/XGBoost_logo.svg" alt="XGB" width="80" height="80"/>
   <!-- Add more logos here if needed -->
 </p>
-
+<b>
+<b>
 
 📌 **Caption**  
 **Figure 1: CortexAI Modular Detection Pipeline Architecture**
