@@ -6,7 +6,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
-  <img src="https://zeek.org/assets/images/zeek-logo.png" alt="Zeek" width="40" height="40"/>
+  <img src="[https://zeek.org/assets/images/zeek-logo.png](https://github.com/shap/shap/issues/831)" alt="SHAP" width="40" height="40"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Such_logo.png" alt="Such" width="40" height="40"/>
   <!-- Add more logos here if needed -->
 </p>
