@@ -69,3 +69,12 @@ Cortex Nexus addresses core challenges in threat intelligence automation by:
 - Integration with Nova Cortex Threat AI analytics modules  
 
 ---
+## Code Disclosure Note
+
+Cortex Nexus contains security-sensitive automation logic and threat intelligence
+handling mechanisms. To prevent misuse and protect ongoing research work, full
+production code for individual modules is not publicly released.
+
+The provided materials demonstrate real system execution, orchestration design,
+data modeling, and automation workflows.
+
