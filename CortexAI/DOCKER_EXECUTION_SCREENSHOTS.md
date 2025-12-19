@@ -3,6 +3,7 @@ Title: CortexAI Docker Deployment
 ---
 
 # CortexAI Docker Modules - Complete Pipeline
+Note: Cortex AI is deployed under the AI-IPS Docker environment.
 
 ![Figure 1: Main Docker page showing all five modules running as containers.](https://github.com/MinhaMumtaz/NovaCortex-Threat-AI/blob/main/CortexAI/diagrams/Docker_pipeline_deploy.png)
 
