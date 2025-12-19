@@ -130,4 +130,21 @@ This README demonstrates:
 🌟 Recruiter- & researcher-friendly clarity  
 
 **Ready to upload and showcase your expertise!**
+---
+
+## About This Repository
+
+Cortex AI is a research-driven behavioral intelligence system designed and implemented
+from scratch. Due to the security-sensitive and novel nature of its detection logic,
+full source code is not publicly released.
+
+This repository provides:
+- Architecture and workflow design
+- Dataset engineering and feature construction
+- Execution evidence via Dockerized pipelines
+- Evaluation results and behavioral generalization analysis
+- Explainable AI inference demonstrations
+
+These materials reflect a fully implemented and operational system.
+
 
