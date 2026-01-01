@@ -1,6 +1,13 @@
 # **CortexAI**  
 **_An AI-Powered Behavioral Intelligence Framework for Cyber Threat Analysis_**  
 
+## TL;DR
+- Built modular AI pipeline for ransomware/malware detection
+- Achieved 95–100% accuracy on unseen ransomware families
+- Containerized workflow for reproducibility and scalability
+- Validated results on benign traffic from Stratosphere Labs
+
+
 ---
 
 ## 1️⃣ **Project Overview**  
