@@ -1,0 +1,58 @@
+======================================================================
+OBLIVIONX HOST SECURITY SCAN - HUMAN READABLE REPORT
+======================================================================
+
+1️⃣ Host Settings
+----------------------------------------------------------------------
+SSH Root Login        : Not set
+Sudo Users           : minha-mumtaz
+Password Max Days    : 99999
+Password Retry Limit : 3
+Firewall Status      : Inactive
+Open Ports           : 47394, 53, 53, 5353, 54903, 5353, 631, 4320, 22, 46643, 53, 53, 22, 631
+OpenSSL Version      : OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+OS Version           : Linux-6.14.0-37-generic-x86_64-with-glibc2.39
+Pending Package Updates : linux-firmware
+
+2️⃣ File Integrity Checks
+----------------------------------------------------------------------
+/etc/passwd                    : e21af7ceb375757170f4e58ebf95a79e1e42cfc600c2cbda6aa743f1a8a7d8f4
+/etc/shadow                    : Permission Denied (root required)
+/etc/group                     : 0938219962b7af3bf6c5cd9c286d5427b23457b22606d73b7ce6316d97e1b9ff
+/etc/gshadow                   : Permission Denied (root required)
+
+/etc/ssh/sshd_config           : 64325541513d33ea1d2ccd19c77750d458e67e7967fd2e7ef81d92f0aa2ffe21
+/etc/ufw/ufw.conf              : 254cb3ad232ca318498ed64ffaee96e2659e0e67228602b644b6357cd26c7e58
+
+3️⃣ Non-Compliant OVAL Rules
+----------------------------------------------------------------------
+oval:oblx:def:2 [Non-Compliant] : OS Version is 24.04 | Value: Linux-6.14.0-37-generic-x86_64-with-glibc2.39
+oval:oblx:def:4 [Non-Compliant] : Firewall is Active | Value: Inactive
+oval:oblx:def:6 [Non-Compliant] : Critical package updates pending | Value: ['linux-firmware']
+oval:oblx:def:8 [Non-Compliant] : Password Max Age ≤ 90 days | Value: 99999
+oval:oblx:def:17 [Non-Compliant] : Kernel Hardening (sysctl net.ipv4.ip_forward) | Value: 1
+oval:oblx:def:18 [Non-Compliant] : SELinux/AppArmor Status | Value: Enabled (Not Enforcing)
+oval:oblx:def:20 [Non-Compliant] : SSH Key Authentication Only | Value: Not set
+
+4️⃣ Non-Compliant Policies (Policy-as-Code)
+----------------------------------------------------------------------
+All policies are compliant.
+
+5️⃣ AI Risk Assessment
+----------------------------------------------------------------------
+Risk Score : 1.0
+Risk Level : High
+Explainability (only non-compliant):
+  SSH Root Login : Not set (unsafe)
+  Password Policy : max_days=99999 (too long)
+  Open Ports : High-risk open ports detected: [53, 53, 631, 22, 53, 53, 22, 631]
+  OVAL Rules:
+    oval:oblx:def:2 [Non-Compliant] : OS Version is 24.04 | Value: Linux-6.14.0-37-generic-x86_64-with-glibc2.39
+    oval:oblx:def:4 [Non-Compliant] : Firewall is Active | Value: Inactive
+    oval:oblx:def:6 [Non-Compliant] : Critical package updates pending | Value: ['linux-firmware']
+    oval:oblx:def:8 [Non-Compliant] : Password Max Age ≤ 90 days | Value: 99999
+    oval:oblx:def:17 [Non-Compliant] : Kernel Hardening (sysctl net.ipv4.ip_forward) | Value: 1
+    oval:oblx:def:18 [Non-Compliant] : SELinux/AppArmor Status | Value: Enabled (Not Enforcing)
+    oval:oblx:def:20 [Non-Compliant] : SSH Key Authentication Only | Value: Not set
+======================================================================
+[INFO] Report generated successfully.
