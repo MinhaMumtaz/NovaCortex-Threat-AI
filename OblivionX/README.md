@@ -1,7 +1,7 @@
 <!-- Tool Logos -->
 <p align="left">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYH5Rcw229NWwDt_Ni6E4CINx6QpWtP3ZXA&s" alt="Zeek" width="60" height="60"/>
-  <img src="https://www.serversaustralia.com.au/assets/articles/featured_images/vmware-765x460-1.jpg" alt="VMware" width="110" height="100"/>
+  <img src="https://www.serversaustralia.com.au/assets/articles/featured_images/vmware-765x460-1.jpg" alt="VMware" width="100" height="90"/>
 
 </p>
 
