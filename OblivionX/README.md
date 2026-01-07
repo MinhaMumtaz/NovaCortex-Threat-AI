@@ -16,12 +16,9 @@
 8. [Policy-as-Code Implementation](#policy-as-code-implementation)  
 9. [OVAL Compliance Validation](#oval-compliance-validation)  
 10. [File Integrity and Host Configuration Checks](#file-integrity-and-host-configuration-checks)  
-11. [How to Use OblivionX](#how-to-use-oblivionx)  
-12. [Installation & Setup](#installation--setup)  
-13. [Example Output](#example-output)  
-14. [Impact & Use Cases](#impact--use-cases)  
-15. [Contributing](#contributing)  
-16. [License](#license)
+11. [Example Output](#example-output)  
+12. [Impact & Use Cases](#impact--use-cases)  
+
 
 ---
 
@@ -47,9 +44,6 @@ The primary motivation behind OblivionX is to provide:
 - Clear differentiation between compliant and non-compliant configurations  
 - A **policy-driven** approach for repeatable and testable security baselines  
 - A showcase of **AI-driven security assessment** aligned with modern enterprise security frameworks  
-
-Organizations like **Canonical** require repeatable, verifiable, and explainable security mechanisms.  
-OblivionX demonstrates both **technical depth** and **strategic security thinking**.
 
 ---
 
@@ -103,11 +97,16 @@ OblivionX demonstrates both **technical depth** and **strategic security thinkin
 - **Explainable AI (XAI)** – Risk scoring with transparent reasoning  
 - **OVAL (Open Vulnerability and Assessment Language)** – Standardized compliance checks  
 - **Hashing** – Integrity verification of critical system files  
-- **Virtual Environment (venv)** – Isolated and reproducible Python environment  
+- **Virtual Environment (venv)** – Isolated and reproducible Python environment
+- **Operating System** – Ubuntu (Installed on VMware Workstation 17 Player)   
 
 ---
 
 ## Project Architecture & Workflow
+
+[Architecture ↗](Architecture.png)
+
+[Workflow ↗](Activity_Diagram.png)
 
 
 ---
