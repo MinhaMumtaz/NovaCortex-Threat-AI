@@ -4,6 +4,8 @@
 **Domain:** Software Security • Cybersecurity • Threat Intelligence • Security Analytics • AI  
 **Status:** Active Development  
 
+# Self-Created R&D Lab
+
 ---
 
 ## 📌 Overview
