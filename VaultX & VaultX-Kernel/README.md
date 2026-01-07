@@ -1,10 +1,10 @@
 ![Language](https://img.shields.io/badge/C%20%7C%20Python-Security-blue)
 ![Crypto](https://img.shields.io/badge/Crypto-AES--GCM-green)
 ![Status](https://img.shields.io/badge/Status-Active_Development-orange)
-
+<p>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYH5Rcw229NWwDt_Ni6E4CINx6QpWtP3ZXA&s" alt="Ubuntu" width="60" height="60"/>
   <img src="https://www.serversaustralia.com.au/assets/articles/featured_images/vmware-765x460-1.jpg" alt="VMware" width="100" height="90"/>
-
+<p/>
 
 ---
 
