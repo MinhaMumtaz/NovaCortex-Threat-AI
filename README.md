@@ -8,7 +8,7 @@
 
 ## 📌 Overview
 
-**Nova Cortex Threat AI** is a modular, AI-driven cybersecurity research lab and umbrella initiative. It provides a platform for advanced research in threat intelligence and cyber forensics, following a **research-to-production mindset**. The initiative encompasses multiple sub-projects—some developed (e.g., CortexAI, CortexNexus), some in progress, and others planned—aimed at advancing cybersecurity knowledge, developing innovative tools, and empowering cybersecurity professionals.
+**Nova Cortex Threat AI** is a modular, AI-driven cybersecurity research lab and umbrella initiative. It provides a platform for advanced research in threat intelligence and cyber forensics, following a **research-to-production mindset**. The initiative encompasses multiple sub-projects—some developed (e.g., CortexAI, CortexNexus, OblivionX, VaultX, VaultX-Kernel), some in progress, and others planned—aimed at advancing cybersecurity knowledge, developing innovative tools, and empowering cybersecurity professionals.
 
 ---
 
@@ -52,7 +52,7 @@ Modern security teams face challenges including:
 | **VaultX** | High-level, Python-based, GUI-driven encryption system       |
 | **VaultX-Kernel** | Low-level, C-based system cryptography with OpenSSL EVP APIs       |
 
-Each project can be used **independently** or as part of the unified Nova Cortex platform.
+Each project can be used **independently** or as part of the unified NovaCortex platform.
 
 ---
 
