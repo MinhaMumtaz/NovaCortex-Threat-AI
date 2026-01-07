@@ -1,4 +1,4 @@
-# 🛡️ NovaCortex-Threat-AI   -   Self-Created R&D Lab
+# 🛡️ NovaCortex-Threat-AI  (Self-Created R&D Lab)
 
 **Author:** Minha Mumtaz  
 **Domain:** Software Security • Cybersecurity • Threat Intelligence • Security Analytics • AI  
