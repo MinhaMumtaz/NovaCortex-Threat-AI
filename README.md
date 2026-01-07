@@ -8,7 +8,7 @@
 
 ## 📌 Overview
 
-**Nova Cortex Threat AI** is a modular, AI-driven cybersecurity research lab and umbrella initiative. It provides a platform for advanced research in threat intelligence and cyber forensics, following a **research-to-production mindset**. The initiative encompasses multiple sub-projects—some developed (e.g., CortexAI, CortexNexus, OblivionX, VaultX, VaultX-Kernel), some in progress, and others planned—aimed at advancing cybersecurity knowledge, developing innovative tools, and empowering cybersecurity professionals.
+**NovaCortex-Threat-AI** is a modular, AI-driven cybersecurity research lab and umbrella initiative. It provides a platform for advanced research in threat intelligence and cyber forensics, following a **research-to-production mindset**. The initiative encompasses multiple sub-projects—some developed (e.g., CortexAI, CortexNexus, OblivionX, VaultX, VaultX-Kernel), some in progress, and others planned—aimed at advancing cybersecurity knowledge, developing innovative tools, and empowering cybersecurity professionals.
 
 ---
 
@@ -23,7 +23,7 @@ Modern security teams face challenges including:
 * Weak host scanning and compliance with security best practices
 
 
-**Nova Cortex Threat AI** addresses these gaps by offering an **end-to-end, automated, and explainable security analytics platform**.
+**NovaCortex-Threat-AI** addresses these gaps by offering an **end-to-end, automated, and explainable security analytics platform**.
 
 ---
 
@@ -38,6 +38,7 @@ Modern security teams face challenges including:
 * Policy-as-Code Validation: YAML-driven rules allow easy modification, testing, and expansion.
 * AES-256-GCM encryption and decryption
 * Strong password-based key derivation (Argon2 for VaultX, PBKDF2-HMAC-SHA256 for VaultX-Kernel)
+* OVAL Compliance Checks 
 * Research-ready and production-aware architecture
 
 ---
@@ -58,7 +59,7 @@ Each project can be used **independently** or as part of the unified NovaCortex 
 
 ## 🛠️ Tech Stack
 
-* **Languages:** Python, C/C++, Go, Rust, SQL  
+* **Languages:** Python, C/C++, Go, Rust, SQL, PHP, JSON  
 * **Security:** Threat Intelligence Feeds, IOC Analysis, OVAL Compliance Checks  
 * **AI/ML:** Machine Learning, Behavioral Analysis, XAI, Risk Scoring, Feature Attribution  
 * **Databases:** SQL-based Structured Storage  
