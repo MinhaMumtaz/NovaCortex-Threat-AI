@@ -59,7 +59,7 @@ Each project can be used **independently** or as part of the unified NovaCortex 
 ## 🛠️ Tech Stack
 
 * **Languages:** Python, C/C++, Go, Rust, SQL  
-* **Security:** Threat Intelligence Feeds, IOC Analysis  
+* **Security:** Threat Intelligence Feeds, IOC Analysis, OVAL Compliance Checks  
 * **AI/ML:** Machine Learning, Behavioral Analysis, XAI, Risk Scoring, Feature Attribution  
 * **Databases:** SQL-based Structured Storage  
 * **DevOps:** Docker, Docker Compose  
