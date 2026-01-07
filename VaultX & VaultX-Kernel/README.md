@@ -1,3 +1,9 @@
+![Language](https://img.shields.io/badge/C%20%7C%20Python-Security-blue)
+![Crypto](https://img.shields.io/badge/Crypto-AES--GCM-green)
+![Status](https://img.shields.io/badge/Status-Active_Development-orange)
+
+---
+
 # 🔐 VaultX & VaultX-Kernel  
 ## Dual-Layer Secure File Encryption Framework
 
