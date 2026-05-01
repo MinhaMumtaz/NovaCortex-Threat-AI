@@ -87,5 +87,5 @@ Each project can be used **independently** or as part of the unified NovaCortex 
 
 ---
 
-## < Note >: 
+## < Note >
 Advanced systems projects **(NovaSentry-X and NovaCortex-Sentinel)** are currently in private development for security research purposes. Documentation and logic walkthroughs are available upon request for technical interviews.
