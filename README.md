@@ -84,3 +84,8 @@ Each project can be used **independently** or as part of the unified NovaCortex 
 * Policy Optimization - Use AI to recommend ideal baseline policies tailored to environment and threat models
 * Evaluate side-channel attack resistance in low-level kernel implementation
 
+
+---
+
+## < Note >: 
+Advanced systems projects **(NovaSentry-X and NovaCortex-Sentinel)** are currently in private development for security research purposes. Documentation and logic walkthroughs are available upon request for technical interviews.
